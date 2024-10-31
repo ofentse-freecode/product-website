@@ -14,7 +14,7 @@ nav{
     justify-content: space-between;
     position:fixed;
     top:0;
-    left:0;
+   
 
 }
 nav img{
@@ -22,9 +22,10 @@ nav img{
     border-radius: 50%;
     padding:5px;
 }
-nav h2{
+nav a{
     color:#F9FAF8;
-    font-size: 24px;
+    font-size: 1.5em;
+    text-decoration: none;
   
 }
 
@@ -32,27 +33,108 @@ nav h2{
     display:flex;
     align-items: center;
 }
+
+
+/*--menu items device--*/
 .links ul{
-    padding:15px;
-    margin: 5px;
-    display: flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+    overflow:hidden;
+    
+}
+.links{
+    height:100%;
+    position:fixed;
+    top:45px;
+    right:0;
+    background-color: #1F2937;
+    display:block;
     align-items: center;
     justify-content: space-around;
-    text-decoration: none;
-    
+    max-width: 0;
+    transition: max-width .2s ease-in;
 
 }
-.links li{
-    list-style-type: none;
-} 
 
-.links a{
-    padding:15px;
-    margin: 5px;
+.links ul a{
+    display: block;
+    padding:20px;
+    text-decoration: none;
     color:#F9FAF8;
-    font-size: 24px;
-    text-decoration: none;
+    font-size: 2em;
+    text-decoration: none;  
 }
+x.links {
+    max-width: 0;
+    transition:max-width .2s ease-out;
+  
+}
+.nav-btn{
+    position:absolute;
+    top:3px;
+    right:10px;
+}
+
+.menu-icon{
+    padding:28px;
+    position:relative;
+    cursor:pointer;
+    margin: 10px;
+
+}
+.nav-icon{
+    background: white;
+    display:block;
+    content:"";
+    height:2px;
+    width:30px;
+    position:relative;
+    transition: background .2s ease-out;
+}
+.nav-icon:before{
+    background:white;
+    content:"";
+    display:block;
+    height:2px;
+    width:30px;
+    position:absolute;
+    top:7px;
+    transition:all .2s ease-out;
+    
+}
+.nav-icon:after{
+    background:white;
+    content:"";
+    display:block;
+    height:2px;
+    width:30px;
+    position:absolute;
+    top:-7px;
+    transition:all .3s ease-out;
+}
+
+.menu-btn{           
+    display:none;
+}
+
+header .menu-btn:checked ~ .links{
+    max-width: 280px;
+}
+header .menu-btn:checked ~ .menu-icon .nav-icon{
+    background: transparent;
+}
+header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    rotate: -45deg;
+    top:0;
+}
+header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+     rotate: 45deg;
+     top:0;
+}
+
+
+ 
 /*--home--*/
 
 /*--about us--*/
@@ -198,4 +280,31 @@ nav h2{
 /*--footer--*/
 
 /*--responsive--*/
+@media (max-width:768px){
+    /*--about--*/
+.about-us-first{
+    display:block;
+}
+.about-us-first h1{
+    margin-left:25px;
+    
+}
+.about-us-second{
+    display:block;
+}
+.about-us-second p{
+    width:100%;
+}
+.about-us-last {
+    display:block;
+}
+.about-us-last h1{
+    display:block;
+    margin-left: 20px;
+}
+    /*contact*/
+.center img{
+    display:none;
+}
 
+}
