@@ -1382,7 +1382,7 @@ align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
+
   .menu-btn:checked + .menu-icon .nav-icon:after {
     transform: rotate(-45deg);
     top: 0;
@@ -1521,12 +1521,13 @@ align-items: center;
     padding: 10px;
   }
   .copywrite {
-=======
+
+  }
+
 .discount-message h2 {
     font-size: 2em;
     margin: 0 0 10px;
     padding-top: 10px;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
     color: #fff;
 }
 
