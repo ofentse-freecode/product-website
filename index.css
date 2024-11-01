@@ -13,7 +13,6 @@ header {
 }
 
 nav {
-<<<<<<< HEAD
   width: 100%;
   background-color: #1f2937;
   display: flex;
@@ -23,17 +22,6 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1000;
-=======
-    width: 100%;
-    background-color: #1F2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 
 .logo {
@@ -42,11 +30,9 @@ nav {
 }
 
 .logo img {
-<<<<<<< HEAD
   width: 40px;
   margin-right: 10px;
   border-radius: 50%;
-=======
     width: 35px;
     margin-right: 10px;
     border-radius: 50%;
@@ -90,19 +76,11 @@ nav ul {
 }
 
 nav ul li a {
-<<<<<<< HEAD
   color: #f9faf8;
   text-decoration: none;
   font-size: 1.5em;
   padding: 8px;
   transition: color 0.3s;
-=======
-    color: #F9FAF8;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 8px;
-    transition: color 0.3s;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 
 nav ul li a:hover {
@@ -236,7 +214,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
     padding: 25px;
   
 }
-<<<<<<< HEAD
 .main-section p {
   padding: 20px;
   margin:10px;
@@ -383,19 +360,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   width: 100%;
 }
 #sub-section{
-=======
-.main-section p{
-    padding:10px;
-    width:600px;
-    font-size: 18px;
-}
-.initial-content-container{
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
     width: 100%;
     height: 100%;
     margin-top: 12vh;
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: space-around;
     margin:20px;
@@ -403,7 +371,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 }
 #sub-section-header {
     margin: 10px;
-=======
     background: #1F2937;
     justify-content: space-between;
 }
@@ -551,7 +518,7 @@ cursor: pointer;
     width:100%;
     text-transform: uppercase;
 }
-<<<<<<< HEAD
+
 #sub-section-text {
   font-size: 20px;
   color: rgb(194, 194, 194);
@@ -565,8 +532,8 @@ cursor: pointer;
   height:300px;
   padding-top: 10px;
   margin-right: 18vh;
- 
-=======
+}
+
 #sub-section-text{
     font-size: 20px;
     color:rgb(143, 137, 137);
@@ -636,7 +603,7 @@ margin-top: 12px;
     text-align: center;
     width:400px
 }
-<<<<<<< HEAD
+
 .testimonials{
   background-color: #1F2937;
   margin:0;
@@ -649,7 +616,7 @@ margin-top: 12px;
   font-size: 48px;
   margin: 20px;
   
-=======
+}
 .star{
     justify-content: center;
     font-size: 48px;
@@ -743,7 +710,7 @@ width: 600px;
     align-items: center;
 }
 
-<<<<<<< HEAD
+
 .our-clients {
   /*border: 3px solid #fdfdfd;*/
   border-top: none;
@@ -867,11 +834,6 @@ footer {
   align-items: center;
 }
 
-.copywrite {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-=======
 .copywrite{
     color: #fff;
     font-size: 20px;
@@ -1017,11 +979,11 @@ footer {
 /*--shop--*/
 
 /*--blog--*/
-<<<<<<< HEAD
+
 #main-blog {
   background:rgba(211, 211, 211, 0.151);
   color: #080808;
-=======
+}
 #main-blog{
 background: #000000;
 color: #fff;
@@ -1035,7 +997,7 @@ background-size: cover;
 background-repeat: no-repeat;
 margin-top: 7vh;
 }
-<<<<<<< HEAD
+
 .blog-center-div {
   width: 100%;
   height: 100%;
@@ -1043,8 +1005,8 @@ margin-top: 7vh;
   place-content: center;
   align-items: center;
   justify-content: center;
- 
-=======
+}
+
 .blog-center-div{
 width: 100%;
 height: 100%;
@@ -1065,7 +1027,7 @@ align-items: center;
    font-size: 40px;
    text-transform: capitalize;
 }
-<<<<<<< HEAD
+
 #what-you-might-like{
   text-align: center;
 }
@@ -1076,7 +1038,7 @@ align-items: center;
   text-transform: uppercase;
   text-align: center;
   margin:10px;
-=======
+}
 .blog-header{
 font-size: 40px;
 text-transform: capitalize;
@@ -1090,7 +1052,7 @@ justify-content: space-between;
 margin-bottom: 30px;
 flex-wrap: wrap;
 }
-<<<<<<< HEAD
+
 .blog-header2 {
   font-size: 24px;
   text-transform: capitalize;
@@ -1116,7 +1078,7 @@ flex-wrap: wrap;
   border-radius: 50%;
   border: 2px solid #5d8cd3;
   margin: 15px;
-=======
+}
 .blog-header2{
     font-size: 24px;
     text-transform: capitalize;
@@ -1162,7 +1124,7 @@ align-items: center;
 /*--footer--*/
 
 /*--responsive--*/
-<<<<<<< HEAD
+
 @media (max-width: 1138px) {
   .our-clients img {
     width: 230px;
@@ -1189,7 +1151,7 @@ align-items: center;
   .blog {
     background-image: url("pages/assets/background1024.jpg");
   }
-=======
+}
 @media (max-width:768px){
     /*home*/
       /* Show menu button */
@@ -1520,9 +1482,7 @@ align-items: center;
     background: #000000;
     padding: 10px;
   }
-  .copywrite {
-
-  }
+  
 
 .discount-message h2 {
     font-size: 2em;
