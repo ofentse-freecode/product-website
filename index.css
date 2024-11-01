@@ -22,16 +22,7 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1000;
-    width: 100%;
-    background-color: #1F2937;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-
+   
 }
 
 .logo {
@@ -43,7 +34,7 @@ nav {
   width: 40px;
   margin-right: 10px;
   border-radius: 50%;
-    width: 35px;
+    width: 45px;
     margin-right: 10px;
     border-radius: 50%;
 }
@@ -228,6 +219,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 .main-section{
     background: #1F2937;
     padding: 25px;
+  
 }
 
 .main-section p {
@@ -243,6 +235,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   margin-top: 9vh;
   display: flex;
   background: #1f2937;
+  align-items: center;
   justify-content: space-around;
 }
 .header-text {
@@ -375,9 +368,9 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 .img {
   width: 100%;
 }
-#sub-section{
+/*#sub-section{
   
-}
+}*/
 
 .main-section p{
     padding:10px;
@@ -390,7 +383,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
     height: 100%;
     margin-top: 12vh;
     display: flex;
-<<<<<<< HEAD
     align-items: center;
     justify-content: space-around;
     margin:20px;
@@ -398,7 +390,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 }
 #sub-section-header {
     margin: 10px;
-=======
     background: #1F2937;
     justify-content: space-between;
 }
@@ -541,13 +532,11 @@ cursor: pointer;
     flex-wrap: wrap;
 }
 #sub-section-header{
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
     font-size: 36px;
     font-weight: 800;
     width:100%;
     text-transform: uppercase;
 }
-<<<<<<< HEAD
 #sub-section-text {
   font-size: 20px;
   color: rgb(194, 194, 194);
@@ -561,8 +550,8 @@ cursor: pointer;
   height:300px;
   padding-top: 10px;
   margin-right: 18vh;
+}
  
-=======
 #sub-section-text{
     font-size: 20px;
     color:rgb(143, 137, 137);
@@ -621,7 +610,6 @@ margin-top: 12px;
     height: 250px;
     border-radius: 50%;
     border: 2px solid #000000;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 .clients-words{
     font-size: 20px;
@@ -633,7 +621,6 @@ margin-top: 12px;
     text-align: center;
     width:400px
 }
-<<<<<<< HEAD
 .testimonials{
   background-color: #1F2937;
   margin:0;
@@ -645,14 +632,12 @@ margin-top: 12px;
   text-transform: uppercase;
   font-size: 48px;
   margin: 20px;
-  
-=======
+}
 .star{
     justify-content: center;
     font-size: 48px;
     margin-left: 10px;
     
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 /*Please complete the footer*/
 footer{
@@ -741,7 +726,6 @@ width: 600px;
     align-items: center;
 }
 
-<<<<<<< HEAD
 .our-clients {
   /*border: 3px solid #fdfdfd;*/
   border-top: none;
@@ -869,12 +853,11 @@ footer {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
-=======
+}
 .copywrite{
     color: #fff;
     font-size: 20px;
     font-weight: 600;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 /*--about us--*/
 .about-us-first{
@@ -968,6 +951,7 @@ footer {
     justify-content: center;
     margin:110px;
 }
+
 .center{
     width:700px;
     height:500px;
@@ -1015,15 +999,13 @@ footer {
 /*--shop--*/
 
 /*--blog--*/
-<<<<<<< HEAD
 #main-blog {
   background:rgba(211, 211, 211, 0.151);
   color: #080808;
-=======
+}
 #main-blog{
 background: #000000;
 color: #fff;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 .blog{
 width: 100%;
@@ -1034,7 +1016,6 @@ background-size: cover;
 background-repeat: no-repeat;
 margin-top: 7vh;
 }
-<<<<<<< HEAD
 .blog-center-div {
   width: 100%;
   height: 100%;
@@ -1042,15 +1023,13 @@ margin-top: 7vh;
   place-content: center;
   align-items: center;
   justify-content: center;
- 
-=======
+}
 .blog-center-div{
 width: 100%;
 height: 100%;
 display: flex;
 place-content: center;
 align-items: center;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 .blog-center-text{
     width: 400px;
@@ -1065,7 +1044,6 @@ align-items: center;
    font-size: 40px;
    text-transform: capitalize;
 }
-<<<<<<< HEAD
 #what-you-might-like{
   text-align: center;
 }
@@ -1076,13 +1054,12 @@ align-items: center;
   text-transform: uppercase;
   text-align: center;
   margin:10px;
-=======
+}
 .blog-header{
 font-size: 40px;
 text-transform: capitalize;
 color: #F9FAF8 !important;
 text-decoration: underline;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 .blog-main-content-container{
     margin-top: 50px;
@@ -1091,7 +1068,6 @@ justify-content: space-between;
 margin-bottom: 30px;
 flex-wrap: wrap;
 }
-<<<<<<< HEAD
 .blog-header2 {
   font-size: 24px;
   text-transform: capitalize;
@@ -1117,7 +1093,7 @@ flex-wrap: wrap;
   border-radius: 50%;
   border: 2px solid #5d8cd3;
   margin: 15px;
-=======
+}
 .blog-header2{
     font-size: 24px;
     text-transform: capitalize;
@@ -1142,7 +1118,6 @@ flex-wrap: wrap;
     border-radius: 50%;
     border: 2px solid #ffffff;
     margin: 15px;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 #ideas-container{
     width: 400px;
@@ -1164,7 +1139,6 @@ align-items: center;
 /*--footer--*/
 
 /*--responsive--*/
-<<<<<<< HEAD
 @media (max-width: 1138px) {
   .our-clients img {
     width: 230px;
@@ -1191,7 +1165,7 @@ align-items: center;
   .blog {
     background-image: url("pages/assets/background1024.jpg");
   }
-=======
+}
 @media (max-width:768px){
     /*home*/
       /* Show menu button */
@@ -1260,7 +1234,6 @@ align-items: center;
         }
 .about-us-first{
     display:block;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 .about-us-first h1{
     margin-left:25px;
@@ -1279,12 +1252,13 @@ align-items: center;
     display:block;
     margin-left: 20px;
 }
+
     /*contact*/
 .center img{
     display:none;
 }
 
-}
+
 .shop-page-container {
     display: flex;
     flex-wrap: wrap;
@@ -1384,7 +1358,6 @@ align-items: center;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
   .menu-btn:checked + .menu-icon .nav-icon:after {
     transform: rotate(-45deg);
     top: 0;
@@ -1522,15 +1495,14 @@ align-items: center;
     background: #000000;
     padding: 10px;
   }
-  .copywrite {
-=======
+ /* .copywrite {} */
 .discount-message h2 {
     font-size: 2em;
     margin: 0 0 10px;
     padding-top: 10px;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
     color: #fff;
 }
+
 
 .discount-message p {
     font-size: 1.2em;
@@ -1543,4 +1515,5 @@ align-items: center;
     font-weight: bold;
     color: #bd0404; 
     font-size: 1.5em;
-}
+    } 
+  }
