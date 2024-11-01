@@ -13,7 +13,6 @@ header {
 }
 
 nav {
-<<<<<<< HEAD
   width: 100%;
   background-color: #1f2937;
   display: flex;
@@ -23,7 +22,6 @@ nav {
   position: fixed;
   top: 0;
   z-index: 1000;
-=======
     width: 100%;
     background-color: #1F2937;
     display: flex;
@@ -33,7 +31,7 @@ nav {
     position: fixed;
     top: 0;
     z-index: 1000;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
+
 }
 
 .logo {
@@ -42,15 +40,12 @@ nav {
 }
 
 .logo img {
-<<<<<<< HEAD
   width: 40px;
   margin-right: 10px;
   border-radius: 50%;
-=======
     width: 35px;
     margin-right: 10px;
     border-radius: 50%;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
 }
 
 .logo a {
@@ -91,19 +86,17 @@ nav ul {
 }
 
 nav ul li a {
-<<<<<<< HEAD
   color: #f9faf8;
   text-decoration: none;
   font-size: 1.5em;
   padding: 8px;
   transition: color 0.3s;
-=======
     color: #F9FAF8;
     text-decoration: none;
     font-size: 1em;
     padding: 8px;
     transition: color 0.3s;
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
+
 }
 
 nav ul li a:hover {
@@ -236,7 +229,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
     background: #1F2937;
     padding: 25px;
 }
-<<<<<<< HEAD
+
 .main-section p {
   padding: 20px;
   margin:10px;
@@ -383,14 +376,16 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   width: 100%;
 }
 #sub-section{
-=======
+  
+}
+
 .main-section p{
     padding:10px;
     width:600px;
     font-size: 18px;
 }
 .initial-content-container{
->>>>>>> 76570398ad81b7ae9b987dc09650bcae924d29e0
+
     width: 100%;
     height: 100%;
     margin-top: 12vh;
