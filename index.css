@@ -203,11 +203,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 /*--home--*/
 .main-section {
   background: #1f2937;
-  padding: 25px;
 }
 .main-section p {
   padding: 10px;
-  width: 600px;
+  width: 100%;
   font-size: 18px;
 }
 .initial-content-container {
@@ -255,20 +254,19 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
 }
 .initial-image-container {
   margin: 0px 5px 12px 12px;
-  padding: 0px;
+  padding-top: 50px;
   height: 320px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .initial-image-container img {
-  width: 350px;
-  height: 350px;
+  width: 320px;
+  height: 320px;
   cursor: pointer;
   border-style: outset;
   border-radius: 50%;
   border-color: rgb(146, 192, 207);
-  padding: 11px;
   margin-right: 20px;
 }
 .core-features {
@@ -302,15 +300,13 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   font: 24px;
   font-weight: 500;
   margin: 6px;
-  word-spacing: 3px;
   padding: 4px;
   text-align: center;
 }
 .features {
   display: flex;
-  justify-content: space-around;
-  margin: 15px;
-  padding: 20px;
+  justify-content: space-evenly;
+  margin: 5px;
 }
 .initial-product-image {
   display: flex;
@@ -351,37 +347,24 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after {
   width: 100%;
 }
 #sub-section{
-    background-color: red;
     width: 100%;
     height: 100%;
     display: flex;
   justify-content: center;
 }
 #sub-section-header {
-    background-color: yellow;
     margin: 7px;
     font-size: 36px;
     font-weight: 800;
     text-transform: uppercase;
 }
 #sub-section-text {
-    
-}
-/*copy paste  in media and flex-wrap it*/
-/*
-
-#sub-section-text {
   font-size: 20px;
   color: rgb(143, 137, 137);
   padding: 10px;
   margin: 2px;
-  text-align: left;
 }
 
-#sub-section-image-container{
-background-color: red;
-width: 100%;
-}*/
 #sub-section-image-container img {
   width: 100%;
   padding-top: 10px;
@@ -430,9 +413,10 @@ width: 100%;
   border-radius: 50%;
   border: 2px solid #000000;
 }
-
+.clients-words-text{
+  margin-left: 10px;
+}
 .star {
-  justify-content: center;
   font-size: 48px;
   margin-left: 10px;
 }
@@ -744,6 +728,9 @@ footer {
   justify-content: space-evenly;
   align-items: center;
 }
+#sub-section-image{
+border-radius: 15px;
+}
 .side-img {
   width: 100px;
   height: 100px;
@@ -755,10 +742,54 @@ footer {
 }
 /*--footer--*/
 
-/*--responsive--*/
-@media (max-width: 1024px) {
-     
-  
+/*--responsive--
+
+*/
+@media (max-width: 1138px) {
+  .our-clients img {
+    width: 230px;
+    height: 230px;
+    border: 2px solid #000000;
+  }
+  .star {
+    font-size: 38px;
+    margin-left: 10px;
+  }
+  .feature-content {
+    width: 320px;
+    height: 340px;
+    padding: 10px;
+  }
+  .feature-head {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .feature-info{
+    font-size: 16px;
+  }
+}
+@media (max-width: 953px) {
+  #sub-section{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+}
+@media (max-width: 812px) {
+
+  .our-clients img {
+    width: 230px;
+    height: 230px;
+    border: 2px solid #000000;
+  }
+  .star {
+    font-size: 38px;
+    margin-left: 10px;
+  }
+ 
 }
 @media (max-width: 768px) {
   /*home*/
@@ -850,6 +881,7 @@ footer {
     height: 200px;
     margin: 5px;
   }
+
   #sub-section-header {
     font-size: 20px;
     font-weight: 400;
@@ -962,6 +994,7 @@ footer {
     display: none;
   }
 }
+
 @media (max-width: 500px) {
     #sub-section-image-container img {
         width:100%;
