@@ -217,7 +217,8 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 .main-section p {
   padding: 20px;
   margin:10px;
-  width: 650px;
+  width: 100%;
+/*  width: 650px;*/
   font-size: 18px;
   color:rgb(224, 224, 224);
 }
@@ -266,7 +267,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
 }
 .initial-image-container {
   margin: 0px 5px 12px 12px;
-  padding-top: 50px;
+  padding-top: 40px;
   height: 320px;
   display: flex;
   justify-content: center;
@@ -590,24 +591,7 @@ justify-content: space-around;
 margin-left: 10px;
 margin-top: 12px;
 }
-
-.our-clients{
-    margin: 0px;
-    padding:0px;
-  
-    }
-.our-clients img{
-   position:relative;
-    left:80px;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: 2px solid #33658f;
-}
 .clients-words{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 10px;
     margin-left: 8px;
     padding: 6px;
     color:rgb(146, 139, 139);
@@ -732,7 +716,8 @@ width: 600px;
 }
 .our-clients img {
   position: relative;
-  left:80px;
+  left:0px;
+  /*  left:80px;*/
   margin: 10px;
   width: 250px;
   height: 240px;
@@ -855,10 +840,12 @@ footer {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    padding:10px;
-    width:90%;
+    width: 100%;
     margin-top: 120px;
+    /*  width:90%;
+       margin: 10px;
+    padding:10px;
+    */
 }
 .about-us-first p{
     text-align: left;
@@ -888,8 +875,11 @@ footer {
 
 }
 .about-us-second-all{
-    margin:20px;
-    padding:10px;
+  width: 100%;
+  margin: 0px;
+    padding: 0px;
+    /*margin: 20px;
+    padding:12px;*/
 }
 .about-us-second-all h1{
     text-align: center;
@@ -910,10 +900,13 @@ footer {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
+    padding:10px;
+    width:100%;
+    margin-top: 30px;
+  /*  margin: 10px;
     padding:10px;
     width:90%;
-    margin-top: 80px;
+    margin-top: 80px;*/
 }
 .about-us-last p{
     text-align: left;
@@ -1103,14 +1096,15 @@ footer {
 
 /*--blog--*/
 
-#main-blog {
+/*#main-blog {
   background:rgba(211, 211, 211, 0.151);
   color: #020202;
 }
-#main-blog{
+  #main-blog{
 background: #ececec46;
 color: black;
-}
+}*/
+
 .blog{
 width: 100%;
 height: 573px;
@@ -1143,7 +1137,8 @@ align-items: center;
     border-radius: 26px;
     background: rgba(7, 7, 7, 0.7);
     border: 2px solid #fff;
-    color: rgb(66, 66, 66);
+    color: rgba(255, 255, 255, 0.9);
+  /*  color: rgb(66, 66, 66);*/
     display: flex;
     place-content: center;
    align-items: center;
@@ -1186,15 +1181,6 @@ flex-wrap: wrap;
   color: #070707 !important;
   margin-top: 15px;
 }
-.blog-content {
-  width: 900px;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10px;
-  margin-top: 18px;
-  border-bottom: 1px solid #272626;
-  border-bottom-left-radius: 8px;
-}
 .blog-img {
   width: 180px;
   height: 180px;
@@ -1212,15 +1198,14 @@ flex-wrap: wrap;
     color: #373738 !important;
 }
 .blog-content{
-    width: 900px;
+  width: 100%;
+   /* width: 900px;*/
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
     margin-top: 18px;
     border-bottom: 1px solid #383737;
     border-bottom-left-radius: 8px;
 }
-
 #ideas-container{
     width: 400px;
     margin: 6px;
@@ -1346,7 +1331,9 @@ align-items: center;
         text-transform: capitalize;
         }
 .about-us-first{
-    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .about-us-first h1{
     margin-left:25px;
@@ -1355,12 +1342,47 @@ align-items: center;
 .about-us-second{
     display:block;
 }
+.about-us-second-all img{
+  margin: 0px;
+  padding: 5px;
+}
+.about-us-second img{
+  width: 100%;
+}
 .about-us-second p{
     width:100%;
 }
 .about-us-last {
-    display:block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
+.about-us-last img{
+  width: 100%;
+  height: 250px;
+  border-style: outset;
+  border-radius: 50%;
+  border-color: lightblue;
+  margin-left: 2px;
+  padding:7px;
+
+}
+.blog-content {
+  width: 100%;
+  flex-direction: column;
+}
+#ideas-container{
+  width: 100%;
+}
+/*.about-us-last img{
+  width:380px;
+  border-style: outset;
+  border-radius: 50%;
+  border-color: lightblue;
+  margin-left:30px;
+  padding:20px;
+
+}*/
 .about-us-last h1{
     display:block;
     margin-left: 20px;
@@ -1543,14 +1565,12 @@ align-items: center;
   #sub-section-header {
     font-size: 1.5em;
     font-weight: 400;
-    background: red;
   }
   #sub-section-text {
     font-size: 1em;
     color: rgb(179, 174, 174);
     padding: 5px;
     width: 100%;
-    background-color: beige;
   }
   #sub-section-image-container {
     margin-top: 20px;
@@ -1560,7 +1580,7 @@ align-items: center;
     margin-top: 20px;
     padding-top: 5px;
     display:block;
-    background-color: yellowgreen;
+
   }
   #clients-words {
     font-size: 28px;
@@ -1629,7 +1649,9 @@ align-items: center;
     background: #000000;
     padding: 10px;
   }
-  
+  .copywrite{
+    font-size: 16px;
+  }
 
 .discount-message h2 {
     font-size: 2em;
