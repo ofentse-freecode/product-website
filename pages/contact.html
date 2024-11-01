@@ -4,36 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="../index.css" rel="stylesheet" />
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">
+                <img src="./assets/logo.png" alt="blue logo">
+                <a href="../index.html">SOUNDWAVE</a>
+            </div>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+    
+            <!-- Navigation Links -->
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./pages/shophtml">Shop</a></li>
-                <li><a href="./pages/aboutus.html">About Us</a></li>
-                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./aboutus.html">About Us</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+              
             </ul>
         </nav>
     </header>
-    <main class="center">
-        <aricle >
+    <main class="contact-main">
+       <div class="center"> 
+            <section>
+                <img src="./assets/cantact-img.png" alt="orange illustration">
+            </section>
 
-        </aricle>
-        <article>
-            <form>
-                <label for="name">Name:</label>
-                <input type='text' id="name"   name='fname' label="First name">
-                <label for="email">Email:</label>
-                <input type='text' id="email" name='fname' label="First name">
-                <label for="number">Contact number:</label>
-                <input type='text' id="number"  name='fname' label="First name">
-                <label for="message">Message:</label>
-                <input type='text' id="message"  name='fname' label="First name">
-                <input type="submit" value="Submit">
-            </form>
-        </article>
+            <section class="contact-form">
+                <h1>CONTACT US</h1>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type='text' id="name"   name='fname' label="First name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type='text' id="email" name='fname' label="First name"><br>
+                    <label for="number">Contact number:</label><br>
+                    <input type='text' id="number"  name='fname' label="First name"><br>
+                    <label for="message">Message:</label><br>
+                    <input type='text' id="message"  name='fname' label="First name"><br>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </section>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="copywrite-container">
+          <p class="copywrite">
+            &copy;(2024) kreativeStorm internship. all rights reserved
+          </p>
+        </div>
+      </footer>
 </body>
 </html>
