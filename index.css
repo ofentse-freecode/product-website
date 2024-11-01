@@ -769,6 +769,9 @@ border-radius: 15px;
   .feature-info{
     font-size: 16px;
   }
+  .blog {
+    background-image: url("pages/assets/background1024.jpg");
+  }
 }
 @media (max-width: 953px) {
   #sub-section{
@@ -999,6 +1002,9 @@ border-radius: 15px;
   .center img {
     display: none;
   }
+  .blog {
+    background-image: url("pages/assets/background768.jpg");
+  }
 }
 
 @media (max-width: 500px) {
@@ -1024,5 +1030,8 @@ border-radius: 15px;
       }
       #ideas-container {
         width: 100%;
+      }
+      .blog {
+        background-image: url("pages/assets/background500.jpg");
       }
 }
