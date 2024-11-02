@@ -218,7 +218,6 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   padding: 20px;
   margin:10px;
   width: 100%;
-/*  width: 650px;*/
   font-size: 18px;
   color:rgb(224, 224, 224);
 }
@@ -366,17 +365,7 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  /*
-    width: 100%;
-    height: 100%;
-    margin-top: 12vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin:20px;
-   */
 }
-/*uno*/
 #sub-section-text-container {
   flex: 1;
   padding-right: 20px;
@@ -530,8 +519,6 @@ cursor: pointer;
   padding: 10px;
   margin: 2px;
 }
-/*dos*/
-
 #sub-section-text-container {
   flex: 1;
   padding-right: 20px;
@@ -545,13 +532,6 @@ cursor: pointer;
 #sub-section-image-container img {
   max-width: 100%;
   height: auto;
-  /*
-  width: 310px;
-  height:350px;
-  padding-top: 15px;
-  margin-right: 20vh;
-  margin-top: 15vh;
-  */
 }
 
 #sub-section-text{
@@ -618,7 +598,7 @@ margin-top: 12px;
     margin-left: 10px;
     
 }
-/*Please complete the footer*/
+/*footer*/
 footer{
     width: 100%;
     height: 100%;
@@ -707,7 +687,6 @@ width: 600px;
 
 
 .our-clients {
-  /*border: 3px solid #fdfdfd;*/
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -717,7 +696,6 @@ width: 600px;
 .our-clients img {
   position: relative;
   left:0px;
-  /*  left:80px;*/
   margin: 10px;
   width: 250px;
   height: 240px;
@@ -842,10 +820,6 @@ footer {
     justify-content: center;
     width: 100%;
     margin-top: 120px;
-    /*  width:90%;
-       margin: 10px;
-    padding:10px;
-    */
 }
 .about-us-first p{
     text-align: left;
@@ -878,8 +852,6 @@ footer {
   width: 100%;
   margin: 0px;
     padding: 0px;
-    /*margin: 20px;
-    padding:12px;*/
 }
 .about-us-second-all h1{
     text-align: center;
@@ -903,10 +875,6 @@ footer {
     padding:10px;
     width:100%;
     margin-top: 30px;
-  /*  margin: 10px;
-    padding:10px;
-    width:90%;
-    margin-top: 80px;*/
 }
 .about-us-last p{
     text-align: left;
@@ -1096,15 +1064,6 @@ footer {
 
 /*--blog--*/
 
-/*#main-blog {
-  background:rgba(211, 211, 211, 0.151);
-  color: #020202;
-}
-  #main-blog{
-background: #ececec46;
-color: black;
-}*/
-
 .blog{
 width: 100%;
 height: 573px;
@@ -1138,7 +1097,6 @@ align-items: center;
     background: rgba(7, 7, 7, 0.7);
     border: 2px solid #fff;
     color: rgba(255, 255, 255, 0.9);
-  /*  color: rgb(66, 66, 66);*/
     display: flex;
     place-content: center;
    align-items: center;
@@ -1199,7 +1157,6 @@ flex-wrap: wrap;
 }
 .blog-content{
   width: 100%;
-   /* width: 900px;*/
     display: flex;
     justify-content: space-between;
     margin-top: 18px;
@@ -1374,15 +1331,6 @@ align-items: center;
 #ideas-container{
   width: 100%;
 }
-/*.about-us-last img{
-  width:380px;
-  border-style: outset;
-  border-radius: 50%;
-  border-color: lightblue;
-  margin-left:30px;
-  padding:20px;
-
-}*/
 .about-us-last h1{
     display:block;
     margin-left: 20px;

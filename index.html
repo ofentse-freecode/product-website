@@ -1,163 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link href="../index.css" rel="stylesheet" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <body>
-    <header>
-      <nav>
-          <div class="logo">
-              <img src="./pages/assets/logo.png" alt="blue logo">
-              <a href="../index.html">SOUNDWAVE</a>
-          </div>
-          
-          <!-- Mobile Menu Toggle Button -->
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label for="menu-btn" class="menu-icon">
-              <span class="nav-icon"></span>
-          </label>
-  
-          <!-- Navigation Links -->
-          <ul>
-              <li><a href="./pages/shop.html">Shop</a></li>
-              <li><a href="./pages/aboutus.html">About Us</a></li>
-              <li><a href="./pages/contact.html">Contact</a></li>
-              <li><a href="./pages/blog.html">Blog</a></li>
-          </ul>
-      </nav>
+  <link href="../index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./pages/assets/logo.png" alt="blue logo">
+        <a href="../index.html">SOUNDWAVE</a>
+      </div>
+
+      <!-- Mobile Menu Toggle Button -->
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+
+      <!-- Navigation Links -->
+      <ul>
+        <li><a href="./pages/shop.html">Shop</a></li>
+        <li><a href="./pages/aboutus.html">About Us</a></li>
+        <li><a href="./pages/contact.html">Contact</a></li>
+        <li><a href="./pages/blog.html">Blog</a></li>
+      </ul>
+    </nav>
   </header>
-  
-    
-   <!--- <header>
-        <nav>
-            <div class="logo">
-                <img src="./pages/assets/logo.png" alt="blue logo" >
-                <a href="../index.html">SOUNDWAVE</a>
-            </div>
 
-            <div class="all">
 
-              <div class="nav-btn ">
-                <input class="menu-btn" type="checkbox" id="menu-btn" label="menu-btn"/>
-                <label for="menu-btn"   class="menu-icon"><span class="nav-icon">-</span>
-                </label>
-
-              <div class="links">
-               <ul>
-                  <li><a href="./pages/shop.html">Shop</a></li>
-                  <li><a href="./pages/aboutus.html">About Us</a></li>
-                  <li><a href="./pages/contact.html">Contact</a></li>
-                  <li><a href="./pages/blog.html">Blog</a></li>
-                </ul>
-              </div>
-              </div>   
-          </div>
-        </nav>
-    </header>
-  -->
-
-    <main>
-      <section class="main-section">
-        <div class="initial-content-container">
-          <div class="initial-text">
-            <h1 class="header-text">Redefining How You Listen to Music</h1>
-            <p class="header-text-content">
-              Experience music like never before—immersive, personalized, and
-              easy to enjoy. Our platform curates playlists <br> and recommendations
-              tailored to your taste and mood. With high-quality sound and an
-              intuitive interface, discovering new tracks and revisiting
-              favorites becomes seamless and endlessly enjoyable.
-            </p>
-            <button class="Initial-Purchase-Btn">Purchase</button>
-          </div>
-          <div class="initial-image-container">
-            <img
-              src="pages/assets/product-6-bg.png"
-              alt="headphones"
-            />
-          </div>
+  <main>
+    <section class="main-section">
+      <div class="initial-content-container">
+        <div class="initial-text">
+          <h1 class="header-text">Redefining How You Listen to Music</h1>
+          <p class="header-text-content">
+            Experience music like never before—immersive, personalized, and
+            easy to enjoy. Our platform curates playlists <br> and recommendations
+            tailored to your taste and mood. With high-quality sound and an
+            intuitive interface, discovering new tracks and revisiting
+            favorites becomes seamless and endlessly enjoyable.
+          </p>
+          <button class="Initial-Purchase-Btn">Purchase</button>
         </div>
-      
-      </section>
-
-      <section class="main-content">
-        <h2 class="core-features">CORE FEATURES</h2>
-        <div class="features">
-          <div class="feature-content">
-            <p class="feature-head">High Level (ANC)</p>
-           <div class="icon-container">
-            <svg xmlns="http://www.w3.org/2000/svg" 
-            viewBox="0 0 512 512"
-            width="132" 
-            height="123">
-              <path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80l0-16 0-48 0-48C0 146.6 114.6 32 256 32s256 114.6 256 256l0 48 0 48 0 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg>
-          
-           </div>
-              <p class="feature-info">
-              Blocks out background noise for a focused, immersive listening
-              experience
-              </p>
-          </div>
-          <div class="feature-content">
-            <p class="feature-head">Bluetooth Connectivity</p>
-            <div class="icon-container">
-              <svg xmlns="http://www.w3.org/2000/svg"
-               viewBox="0 0 320 512"
-               width="132" 
-            height="123">
-            <path d="M196.5 260l92.6-103.3L143.1 0v206.3l-86.1-86.1-31.4 31.4 108.1 108.4L25.6 368.4l31.4 31.4 86.1-86.1L145.8 512l148.6-148.6-97.9-103.3zm40.9-103l-50 50-.3-100.3 50.3 50.3zM187.4 313l50 50-50.3 50.3 .3-100.3z"/></svg>
-              </div>
-            <p class="feature-info">
-              Seamlessly connect to your devices with stable, high-quality
-              Bluetooth technology.
-            </p>
-          </div>
-          <div class="feature-content">
-            <p class="feature-head">Long Battery Life</p>
-            <div class="icon-container">
-              <svg xmlns="http://www.w3.org/2000/svg" 
-              viewBox="0 0 576 512"
-              width="132" 
-              height="123">
-                <path d="M464 160c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l384 0zM80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l384 0c44.2 0 80-35.8 80-80l0-16c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l0-16c0-44.2-35.8-80-80-80L80 96zm272 96L96 192l0 128 256 0 0-128z"/></svg>
-            </div>
-            <p class="feature-info">
-              Enjoy up to 30 hours of uninterrupted playtime on a single charge
-            </p>
-          </div>
+        <div class="initial-image-container">
+          <img src="pages/assets/product-6-bg.png" alt="headphones" />
         </div>
-        <div class="display-initial-products">
-          <div class="display-initial-data-btn">
-            <button class="Buy-now-Btn">buy now</button>
+      </div>
+
+    </section>
+
+    <section class="main-content">
+      <h2 class="core-features">CORE FEATURES</h2>
+      <div class="features">
+        <div class="feature-content">
+          <p class="feature-head">High Level (ANC)</p>
+          <div class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="132" height="123">
+              <path
+                d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48l0 128c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80l0-16 0-48 0-48C0 146.6 114.6 32 256 32s256 114.6 256 256l0 48 0 48 0 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48l0-128c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z" />
+            </svg>
+
           </div>
-          <div class="initial-product-image">
-            <img src="pages/assets/product-12.jpeg" alt="black headphones" />
-            <img src="pages/assets/product-6.jpeg" alt="pure dark headphones"/>
-            <img src="pages/assets/product-11.jpeg" alt="product-1"/>
-            <img src="pages/assets/product-1.png" alt="product-1"/>
-            <img src="pages/assets/product-10.jpeg" alt="green headphones"/>
-            <img  src="pages/assets/product-8.jpeg" alt="green headphones"/>
-          </div>
+          <p class="feature-info">
+            Blocks out background noise for a focused, immersive listening
+            experience
+          </p>
         </div>
-      </section>
+        <div class="feature-content">
+          <p class="feature-head">Bluetooth Connectivity</p>
+          <div class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" width="132" height="123">
+              <path
+                d="M196.5 260l92.6-103.3L143.1 0v206.3l-86.1-86.1-31.4 31.4 108.1 108.4L25.6 368.4l31.4 31.4 86.1-86.1L145.8 512l148.6-148.6-97.9-103.3zm40.9-103l-50 50-.3-100.3 50.3 50.3zM187.4 313l50 50-50.3 50.3 .3-100.3z" />
+            </svg>
+          </div>
+          <p class="feature-info">
+            Seamlessly connect to your devices with stable, high-quality
+            Bluetooth technology.
+          </p>
+        </div>
+        <div class="feature-content">
+          <p class="feature-head">Long Battery Life</p>
+          <div class="icon-container">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="132" height="123">
+              <path
+                d="M464 160c8.8 0 16 7.2 16 16l0 160c0 8.8-7.2 16-16 16L80 352c-8.8 0-16-7.2-16-16l0-160c0-8.8 7.2-16 16-16l384 0zM80 96C35.8 96 0 131.8 0 176L0 336c0 44.2 35.8 80 80 80l384 0c44.2 0 80-35.8 80-80l0-16c17.7 0 32-14.3 32-32l0-64c0-17.7-14.3-32-32-32l0-16c0-44.2-35.8-80-80-80L80 96zm272 96L96 192l0 128 256 0 0-128z" />
+            </svg>
+          </div>
+          <p class="feature-info">
+            Enjoy up to 30 hours of uninterrupted playtime on a single charge
+          </p>
+        </div>
+      </div>
+      <div class="display-initial-products">
+        <div class="display-initial-data-btn">
+          <button class="Buy-now-Btn">buy now</button>
+        </div>
+        <div class="initial-product-image">
+          <img src="pages/assets/product-12.jpeg" alt="black headphones" />
+          <img src="pages/assets/product-6.jpeg" alt="pure dark headphones" />
+          <img src="pages/assets/product-11.jpeg" alt="product-1" />
+          <img src="pages/assets/product-1.png" alt="product-1" />
+          <img src="pages/assets/product-10.jpeg" alt="green headphones" />
+          <img src="pages/assets/product-8.jpeg" alt="green headphones" />
+        </div>
+      </div>
+    </section>
 
 
-      <section class="container">
-        <img src="pages/assets/wave2.png" alt="wave image" class="img">
+    <section class="container">
+      <img src="pages/assets/wave2.png" alt="wave image" class="img">
 
-        <div id="sub-section">
+      <div id="sub-section">
         <div id="sub-section-text-container">
           <h2 id="sub-section-header">
             Enjoy a seamless connection with your device, keeping music flowing
             throughout your home
           </h2>
-            <p id="sub-section-text">
+          <p id="sub-section-text">
             Experience a seamless connection with your device that allows you to
             enjoy music effortlessly throughout your home. With our innovative
             technology, you can move freely while staying connected, ensuring
@@ -177,116 +146,114 @@
           </p>
         </div>
         <div id="sub-section-image-container">
-          <img
-            src="pages/assets/pexels-jorge-fakhouri-filho-861811-2701570.jpg"
-            alt="person listening to music with our product"
-            id="sub-section-image"
-          />
+          <img src="pages/assets/pexels-jorge-fakhouri-filho-861811-2701570.jpg"
+            alt="person listening to music with our product" id="sub-section-image" />
         </div>
-        </div>
-        
-        <div>
-          <h1 id="clients-words">client Words</h1>
-        </div>
-        <div id="client-info-container">
-          <div class="our-clients">
-            <img src="pages/assets/3.png" alt="" width="200" height="300" />
-            <p class="clients-words-text">
-              The sound quality is incredible, and the seamless connectivity
-              lets me enjoy music throughout my home.
-            </p>
-            <div class="star-rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-          <div class="our-clients">
-            <img src="pages/assets/4.png" alt="" width="200" height="300"/>
-            <p class="clients-words-text">
-              Listening has never been this immersive; the personalized
-              playlists and recommendations have transformed my experience!
-            </p>
-            <div class="star-rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
-          </div>
-          <div class="our-clients">
-            <img src="pages/assets/pexels-olly-774909.png" alt="" width="200" height="300" />
-            <p class="clients-words-text">
-              The noise cancellation is a game-changer, allowing me to truly
-              escape into my music anytime!
-            </p>
-            <div class="star-rating">
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-              <span class="star">&#9733;</span>
-            </div>
+      </div>
+
+      <div>
+        <h1 id="clients-words">client Words</h1>
+      </div>
+      <div id="client-info-container">
+        <div class="our-clients">
+          <img src="pages/assets/3.png" alt="" width="200" height="300" />
+          <p class="clients-words-text">
+            The sound quality is incredible, and the seamless connectivity
+            lets me enjoy music throughout my home.
+          </p>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
           </div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="foot">
+        <div class="our-clients">
+          <img src="pages/assets/4.png" alt="" width="200" height="300" />
+          <p class="clients-words-text">
+            Listening has never been this immersive; the personalized
+            playlists and recommendations have transformed my experience!
+          </p>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+        <div class="our-clients">
+          <img src="pages/assets/pexels-olly-774909.png" alt="" width="200" height="300" />
+          <p class="clients-words-text">
+            The noise cancellation is a game-changer, allowing me to truly
+            escape into my music anytime!
+          </p>
+          <div class="star-rating">
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+            <span class="star">&#9733;</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="foot">
       <div class="sign-up-container">
-       <div class="sign-up-text-container">
-        <p class="sign-up-header">get yours today...</p>
-        <p class="sign-up-text">
-          Sign up for  Note tech today and receive your premium wireless bass sound headphones
-        </p>
-       </div>
+        <div class="sign-up-text-container">
+          <p class="sign-up-header">get yours today...</p>
+          <p class="sign-up-text">
+            Sign up for Note tech today and receive your premium wireless bass sound headphones
+          </p>
+        </div>
         <button class="sign-up-btn">sign up</button>
       </div>
       <div class="important-links">
         <div class="need-help-container">
           <h1 class="help-header">need help ?</h1>
-         <p class="email">
-          <i class="fa-solid fa-envelope"></i> 
+          <p class="email">
+            <i class="fa-solid fa-envelope"></i>
             <span>email</span>
             notetech@gmail.com
-           </p>
-         
+          </p>
+
           <p class="phone">
             <i class="fa-solid fa-phone-volume"></i>
             Phone : +001 233 4732 248
           </p>
-          </div>
+        </div>
         <div class="useful-links-container-main-div">
           <h1 class="useful-links-header">
             Usefull links
           </h1>
-           <div class="useful-links-container">
-         
-          <ul>
-            <li>features</li>
-            <li>contact</li>
-            <li>pricing</li>
-            <li>purchasing guide</li>
-          </ul>
-          <ul>
-            <li>privacy policy</li>
-            <li>help center</li>
-            <li>terms and conditions</li>
-            <li>FAQ questions</li>
-          </ul>
-           </div>
+          <div class="useful-links-container">
+
+            <ul>
+              <li>features</li>
+              <li>contact</li>
+              <li>pricing</li>
+              <li>purchasing guide</li>
+            </ul>
+            <ul>
+              <li>privacy policy</li>
+              <li>help center</li>
+              <li>terms and conditions</li>
+              <li>FAQ questions</li>
+            </ul>
+          </div>
 
         </div>
       </div>
-      </div>
-      <div class="copywrite-container">
-        <p class="copywrite">
-          &copy;(2024) kreativeStorm internship. all rights reserved
-        </p>
-      </div>
-    </footer>
-  </body>
+    </div>
+    <div class="copywrite-container">
+      <p class="copywrite">
+        &copy;(2024) kreativeStorm internship. all rights reserved
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
