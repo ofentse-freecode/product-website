@@ -21,21 +21,23 @@ nav{
     justify-content: center;
 }
 .logo img{
-    width:35px;
+    width: 40px;
+    margin-right: 10px;
     border-radius: 50%;
-    margin:10px;
+    width: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
 }
 .logo a{
-    margin:5px;
+    color: #F9FAF8;
+    font-size: 1.5em;
     text-decoration: none;
-    color:white;
-    font-weight: 400;
-    font-size: 20px;
+
 }
 nav ul{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     margin-right: 5px;
     
 }
@@ -50,8 +52,11 @@ nav ul li a{
     text-decoration: none;
     color:white;
     text-transform: uppercase;
+    font-size: 1.5em;
 }
-
+nav ul li a:hover {
+    color: #0082e6;
+}
 .hero{
     background: #1f2937;
     display:flex;
