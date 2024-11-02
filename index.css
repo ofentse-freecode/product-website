@@ -253,6 +253,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   margin: 10px 10px 15px 10px;
   border: none;
 }
+.Initial-Purchase-Btn a, .Buy-now-Btn a, .sign-up-btn a{
+  text-decoration: none;
+  color: inherit;
+}
 .Initial-Purchase-Btn:hover,
 .display-initial-data-btn button:hover,
 #client-words-btn-container button:hover,
