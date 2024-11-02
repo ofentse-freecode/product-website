@@ -1,6 +1,6 @@
 /*--Global--*/
 * {
-    font-family: "Roboto", serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -252,6 +252,10 @@ header .menu-btn:checked ~ .menu-icon .nav-icon:after{
   padding: 9px;
   margin: 10px 10px 15px 10px;
   border: none;
+}
+.Initial-Purchase-Btn a, .Buy-now-Btn a, .sign-up-btn a{
+  text-decoration: none;
+  color: inherit;
 }
 .Initial-Purchase-Btn:hover,
 .display-initial-data-btn button:hover,
@@ -655,76 +659,15 @@ font-size: 40px;
 text-transform: capitalize;
 font-weight: 600;
 }
-.email{
-font-size: 23px;
-text-transform: capitalize;
-}
-.email i:hover, .phone i:hover{
-   color: #3881f6;
-   cursor: pointer;
-    }
-
-    .useful-links-container{
-display: flex;
-justify-content: space-between;
-width: 600px;
-    }
-
-.useful-links-container ul li{
-   list-style-type: none;
-   font-size: 20px;
-   font-weight: 500;
-   text-transform: capitalize;
-   padding: 3px;
-   margin-left: 4px;
-   margin-right: 5px;
-    }
-.copywrite-container{
-    width: 100%;
-    height: 80px;
-    background: #000000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.our-clients {
-  border-top: none;
-  border-bottom: none;
-  border-right: none;
-  margin: 0px;
-  padding: 0px;
-}
-.our-clients img {
-  position: relative;
-  left:0px;
-  margin: 10px;
-  width: 250px;
-  height: 240px;
-  border-radius: 50%;
-  border: 2px solid #285da3;
-}
-.clients-words-text{
-  margin-left: 15px;
-  width:90%;
-  padding:20px;
-  text-align: center;
-}
-.star {
-  font-size: 48px;
-  margin-left: 30px;
-  text-align: center;
-}
-.foot{
-  padding:6vh;
-}
 
 footer {
   width: 100%;
-  height: 100%;
-  background: #1f2937;
-  color: #fff;
+     height: 50px;
+     background: #1F2937;
+     color: #fff;
+     display:flex;
+     align-items: center;
+     justify-content: center;
  
 }
 .sign-up-container {
@@ -811,11 +754,6 @@ footer {
   align-items: center;
 }
 
-.copywrite{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-}
 /*--about us--*/
 .about-us-first{
     display:flex;
@@ -1067,106 +1005,161 @@ footer {
 
 /*--blog--*/
 
-.blog{
-width: 100%;
-height: 573px;
-background-image: url("pages/assets/pexels-garrettmorrow-1649771.jpg");
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-margin-top: 7vh;
+/* Featured Section */
+.featured-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: #e6e6e6;
+  margin-top: 50px;
 }
 
-.blog-center-div {
-  width: 100%;
-  height: 100%;
+.featured-section h2 {
+  font-size: 2rem;
+}
+
+.featured-section p {
+  margin-bottom: 1.5rem;
+  color: #666;
+}
+
+.featured-products {
   display: flex;
-  place-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
   justify-content: center;
 }
 
-.blog-center-div{
-width: 100%;
-height: 100%;
-display: flex;
-place-content: center;
-align-items: center;
-}
-.blog-center-text{
-    width: 400px;
-    height: 126px;
-    border-radius: 26px;
-    background: rgba(7, 7, 7, 0.7);
-    border: 2px solid #fff;
-    color: rgba(255, 255, 255, 0.9);
-    display: flex;
-    place-content: center;
-   align-items: center;
-   font-size: 40px;
-   text-transform: capitalize;
+.product-blog {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  padding: 1rem;
 }
 
-#what-you-might-like{
-  text-align: center;
-  text-transform: capitalize;
-}
-.blog-header {
-  font-size: 40px;
-  text-transform: capitalize;
-  color: #030303 ;
-  text-transform: uppercase;
-  text-align: center;
-  margin:10px;
-}
-.blog-header{
-font-size: 40px;
-text-transform: uppercase;
-color: #020202 !important;
-
-}
-.blog-main-content-container{
-    margin-top: 50px;
-display: flex;
-justify-content: space-between;
-margin-bottom: 30px;
-flex-wrap: wrap;
-}
-
-.blog-header2 {
-  font-size: 24px;
-  text-transform: capitalize;
-  color: #111111 !important;
-}
-.blog-text {
-  font-size: 16px;
-  color: #070707 !important;
-  margin-top: 15px;
-}
-.blog-img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 2px solid #5d8cd3;
-  margin: 15px;
-}
-.blog-header2{
-    font-size: 24px;
-    text-transform: capitalize;
-    color: #4a4b4a !important;
-}
-.blog-text{
-    font-size: 16px;
-    color: #373738 !important;
-}
-.blog-content{
+.product-blog img {
   width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 18px;
-    border-bottom: 1px solid #383737;
-    border-bottom-left-radius: 8px;
+  height: auto;
+  border-radius: 8px;
 }
+
+/* Blog Section */
+.blog-content1 {
+  padding: 2rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-post1 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.blog-post1 img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-post1 h3 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  background-color: #3882F6;
+  color: #fff;
+}
+
+.blog-post1 p {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.read-more {
+  display: inline-block;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #3882F6;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #fff;
+  color: #3882F6;
+  border: 1px solid #3882F6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #1F2937;
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.testimonial {
+  background-color: #fff;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 400px;
+  font-style: italic;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subscription Section */
+.subscription {
+  background-color: #3882F6;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+.subscription h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.subscription form {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 20px;
+}
+
+.subscription input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  width: 250px;
+}
+
+.subscription button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3882F6;
+  color: #fff;
+  cursor: pointer;
+}
+
+.subscription button:hover {
+  background-color: #003e80;
+}
+
 #ideas-container{
     width: 400px;
     margin: 6px;
@@ -1339,126 +1332,14 @@ align-items: center;
     display:block;
     margin-left: 20px;
 }
-
+    /*blog*/
+    .featured-section {
+      margin-top: 70px;
+    }
     /*contact*/
 .center img{
     display:none;
 }
-
-
-/*-
-.shop-page-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 100px;
-}
-
-.card {
-    background: white;
-    border-radius: 8px;
-    border: 1px solid #1F2937;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 250px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card img {
-    width: 100%;
-    height: 250px; 
-    object-fit: cover;
-}
-
-.card h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.card p {
-    color: #333;
-    margin: 0;
-    font-size: 1.2em;
-    color: #3882F6;
-    font-weight: bold;
-}
-.add-cart {
-    background-color: #1F2937;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
-}
-
-.add-cart:hover {
-    background-color: #fff;
-    color: #1F2937;
-    border: 1px solid #1F2937 ;
-}
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    color: white;
-}
-
-.pagination a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0 5px;
-    border-radius: 5px;
-    background: #1F2937;; 
-}
-
-.pagination a:hover {
-    background: #fff;
-    color: #1F2937;;
-    border: 1px solid #1F2937;;
-}
-
-.prev, .next {
-    font-weight: bold;
-}
-
-.page-number {
-    background: transparent;
-}
-
-.discount-message {
-    background: #3882F6; 
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-    .discount-message p {
-    font-size: 1.2em;
-    color: #fff;
-    padding-bottom: 10px;
-
-}
-
-.highlight {
-    font-weight: bold;
-    color: #bd0404; 
-    font-size: 1.5em;
-}
-
-*/
 
   .menu-btn:checked + .menu-icon .nav-icon:after {
     transform: rotate(-45deg);
