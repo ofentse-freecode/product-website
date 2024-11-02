@@ -1,6 +1,6 @@
 /*--Global--*/
 * {
-    font-family: "Roboto", serif;
+    font-family: Roboto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -1282,121 +1282,6 @@ align-items: center;
 .center img{
     display:none;
 }
-
-
-/*-
-.shop-page-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 100px;
-}
-
-.card {
-    background: white;
-    border-radius: 8px;
-    border: 1px solid #1F2937;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 250px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.2s;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card img {
-    width: 100%;
-    height: 250px; 
-    object-fit: cover;
-}
-
-.card h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.card p {
-    color: #333;
-    margin: 0;
-    font-size: 1.2em;
-    color: #3882F6;
-    font-weight: bold;
-}
-.add-cart {
-    background-color: #1F2937;
-    border: none;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-bottom: 10px;
-    transition: background-color 0.3s;
-}
-
-.add-cart:hover {
-    background-color: #fff;
-    color: #1F2937;
-    border: 1px solid #1F2937 ;
-}
-.pagination {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 40px;
-    color: white;
-}
-
-.pagination a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    margin: 0 5px;
-    border-radius: 5px;
-    background: #1F2937;; 
-}
-
-.pagination a:hover {
-    background: #fff;
-    color: #1F2937;;
-    border: 1px solid #1F2937;;
-}
-
-.prev, .next {
-    font-weight: bold;
-}
-
-.page-number {
-    background: transparent;
-}
-
-.discount-message {
-    background: #3882F6; 
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-    .discount-message p {
-    font-size: 1.2em;
-    color: #fff;
-    padding-bottom: 10px;
-
-}
-
-.highlight {
-    font-weight: bold;
-    color: #bd0404; 
-    font-size: 1.5em;
-}
-
-*/
 
   .menu-btn:checked + .menu-icon .nav-icon:after {
     transform: rotate(-45deg);

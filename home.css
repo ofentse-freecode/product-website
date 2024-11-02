@@ -63,7 +63,7 @@ nav ul li a:hover {
     align-items: center;
     justify-content: space-around;
     padding:8vh;
-    margin-top: 8vh;
+    margin-top: 4vh;
 }
 .hero-info{
     margin-left: 28vh;
@@ -159,8 +159,8 @@ figcaption{
     color:white;
     width: 100px;
     border-radius: 10px;
-    padding:0;
-    height:34px;
+    padding:15px;
+    height:fit-content;
     border:solid 2px white;
     background-color: #3882f6;
 }
@@ -173,4 +173,31 @@ footer{
      align-items: center;
      justify-content: center;
     
+}
+
+/*---media query----*/
+@media(max-width: 768px){
+    .hero{
+        display: block;
+        flex-direction:column;
+        width:100%;
+        margin-top:2vh
+        
+    }
+    .hero-info{
+        margin-left:0vh;
+        width:85%;
+    }
+    .features{
+        display:block;
+    }
+    picture{
+        display: block;
+    }
+    .features h1{
+        text-align: left;
+    }
+    figcaption{
+        text-align: left;
+    }
 }
