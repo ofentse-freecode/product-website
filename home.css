@@ -254,7 +254,7 @@ footer{
  */
 
 
-@media(max-width: 1101px){
+@media(max-width: 1372px){
     .hero{
         display: block;
         flex-direction:column;
