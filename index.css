@@ -781,7 +781,10 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
-
+.posts-title{
+  text-align: center;
+  margin-top: 20px;
+}
 .blog-post1 {
   background-color: #fff;
   border-radius: 8px;
@@ -838,7 +841,10 @@ footer {
   margin-bottom: 1rem;
   color: #fff;
 }
-
+.testimonials-review{
+  display: flex;
+  flex-wrap: wrap;
+}
 .testimonial {
   background-color: #fff;
   margin: 1rem auto;
