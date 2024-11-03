@@ -1075,6 +1075,12 @@ align-items: center;
     transform: rotate(-45deg);
     top: 0;
   }
+  .menu-btn:checked ~ ul{
+    width:250px;
+    background-color: #1f2937;
+    display:block;
+
+  }
   .initial-image-container {
     margin: 0px;
     padding: 0px;

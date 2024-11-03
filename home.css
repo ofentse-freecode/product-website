@@ -183,8 +183,9 @@ footer{
     .menu-btn, .menu-icon {
         display: inline-block;
     }
+}
 
-    /* Adjust the hero section */
+    /* Adjust the hero section 
     .hero {
         display: flex;
         flex-direction: column;
@@ -206,10 +207,10 @@ footer{
         width: 250px;
         height: 250px;
         margin: 2vh 0;
-    }
+    }*/
 
     /* Features Section */
-    .features {
+   /* .features {
         padding: 4vh;
     }
     .features h1 {
@@ -232,7 +233,7 @@ footer{
     }
 
     /* Quote Section */
-    .qoute {
+   /* .qoute {
         padding-top: 3vh;
         font-size: 24px;
     }
@@ -241,7 +242,7 @@ footer{
     }
 
     /* Sign-Up Section */
-    .sign-up {
+   /* .sign-up {
         flex-direction: column;
         text-align: center;
         padding: 4vh 2vh;
@@ -250,9 +251,8 @@ footer{
         width: 80%;
         margin: 2vh 0;
     }
-}
+ */
 
-/*
 
 @media(max-width: 768px){
     .hero{
@@ -281,5 +281,14 @@ footer{
     .qoute{
         padding-top:3vh;
     }
+
+    .sign-up {
+        flex-direction: column;
+        text-align: center;
+        padding: 4vh 2vh;
+    }
+    .sign-up-btns {
+        width: 80%;
+        margin: 2vh 0;
+    }
 }
-*/
