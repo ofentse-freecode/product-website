@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <link href="./home.css" rel="stylesheet" >
-   
+    <script src="https://kit.fontawesome.com/536e85ac3b.js" crossorigin="anonymous"></script>
 
-    <title>Document</title>
+    <title>Soundwave</title>
 </head>
 <body>
     <header>
@@ -20,16 +20,14 @@
                 <img src="./pages/assets/logo.png" alt="blue logo" class="img">
                 <a href="../index.html">SOUNDWAVE</a>
             </div>
-            
-            <!-- Mobile Menu Toggle Button -->
-            <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label for="menu-btn" class="menu-icon">
-                <span class="nav-icon"></span>
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+              <i class="fa fa-bars"></i>
             </label>
-    
+
             <!-- Navigation Links -->
             <ul>
-                <li><a href="./pages/contact.html">contact</a></li>
+                <li><a href="./pages/contact.html">Contact</a></li>
                 <li><a href="./pages/shop.html">Shop</a></li>
                 <li><a href="./pages/aboutus.html">About Us</a></li>
                 <li><a href="./pages/blog.html">Blog</a></li>
@@ -40,53 +38,55 @@
     <main>
         <section class="hero">
             <div class="hero-info">
-                <h1>Redefining How You Listen to Music
-                </h1>
-                <p>Experience music like never 
-                before—immersive, personalize
-                easy to enjoy. Our platform curates playlists and recommendations
-                tailored to your taste and mood. With high-quality sound and an
-                intuitive interface, discovering new tracks and revisiting
-                favorites becomes seamless and endlessly enjoyable.
-                </p>
-                <button class="btn">Purchase</button>
+                <h1>Redefining How You Listen to Music</h1>
+                <p>Experience music like never before—immersive, personalized, and easy to enjoy. Our platform curates playlists and recommendations tailored to your taste and mood. With high-quality sound and an intuitive interface, discovering new tracks and revisiting favorites becomes seamless and endlessly enjoyable.</p>
+                <button class="btn">
+                    <a href="./pages/shop.html">Purchase</a>
+                </button>
             </div>
-            <img src="pages/assets/product-6-bg.png"    alt="blue-headphones" />
+            <img src="pages/assets/product-6-bg.png" alt="blue headphones" />
         </section>
+        
         <section class="features">
             <h1>Products</h1>
             <picture>
                 <figure>
-                    <img src="./pages/assets/product-12.jpeg" alt="purple-headphones">
-                <figcaption>Purple headphones</figcaption>
+                    <img src="./pages/assets/product-12.jpeg" alt="purple headphones">
+                    <figcaption>Purple headphones</figcaption>
                 </figure>
                 <figure>
-                <img src="./pages/assets/product-2.jpeg" alt="nude-headphones"><figcaption>Nude headphones</figcaption>
+                    <img src="./pages/assets/product-2.jpeg" alt="nude headphones">
+                    <figcaption>Nude headphones</figcaption>
                 </figure>
                 <figure>
-                <img src="./pages/assets/product-1.jpeg" alt="pink-headphones"><figcaption>Pink headphones</figcaption>
+                    <img src="./pages/assets/product-1.jpeg" alt="pink headphones">
+                    <figcaption>Pink headphones</figcaption>
                 </figure>
                 <figure>
-                <img src="./pages/assets/product-11.jpeg" alt="black-headphones"><figcaption>Black headpones</figcaption>
+                    <img src="./pages/assets/product-11.jpeg" alt="black headphones">
+                    <figcaption>Black headphones</figcaption>
                 </figure>
             </picture>
         </section>
-        <section class="qoute">
-            <q>Where words fail music speaks</q>
-            <p>~Hans Zimmer</p>
+        
+        <section class="quote">
+            <q>Where words fail, music speaks.</q>
+            <p class="author"><cite>~Hans Zimmer</cite></p>
         </section>
 
         <section class="sign-up">
             <div>
                 <h1>Get yours today!</h1>
-                <p>Stay up to date with our blog! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, animi?</blog></p>
+                <p>Stay up to date with our blog! Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, animi?</p>
             </div>
-            <button class="sign-up-btns">Sign up</button>
+            <button class="sign-up-btns">
+                <a href="./pages/contact.html">Sign up</a>
+            </button>
         </section>
     </main>
+
     <footer>
-        <p>&copy;(2024) Soundwave. all rights reserved
-        </p>
+        <p>&copy; 2024 Soundwave. All rights reserved.</p>
     </footer>
 </body>
 </html>
