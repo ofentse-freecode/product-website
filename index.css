@@ -1081,6 +1081,9 @@ align-items: center;
     transform: rotate(-45deg);
     top: 0;
   }
+  header input{
+    display:none;
+  }
   .menu-btn:checked ~ ul{
     width:250px;
     background-color: #1f2937;
