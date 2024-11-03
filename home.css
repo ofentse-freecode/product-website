@@ -1,4 +1,5 @@
 
+/*
 *{
     font-family: Roboto;
     padding:0;
@@ -184,8 +185,7 @@ footer{
         display: inline-block;
     }
 }
-
-    /* Adjust the hero section 
+ Adjust the hero section 
     .hero {
         display: flex;
         flex-direction: column;
@@ -251,7 +251,6 @@ footer{
         width: 80%;
         margin: 2vh 0;
     }
- */
 
 
 @media(max-width: 1372px){
@@ -292,3 +291,4 @@ footer{
         margin: 2vh 0;
     }
 }
+*/
