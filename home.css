@@ -139,7 +139,7 @@ figcaption{
 }
 .qoute{
     text-align: center;
-    padding-top:25vh;
+    padding-top:6vh;
     font-size: 48px;
 }
 .qoute p{
@@ -200,5 +200,8 @@ footer{
     }
     figcaption{
         text-align: left;
+    }
+    .qoute{
+        padding-top:3vh;
     }
 }
