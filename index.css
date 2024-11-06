@@ -494,9 +494,11 @@ footer {
 }
 .about-us-first p{
     text-align: left;
-    margin:20px;
+    margin-left:8vh;
     padding: 5px;
     color:#929394;
+    width:90%;
+
 }
 .about-us-first h1{
     margin-left: 380px;
@@ -508,7 +510,7 @@ footer {
     border-style: outset;
     border-radius: 50%;
     border-color: lightblue;
-    margin-left:30px;
+    margin-right:18vh;
     padding:20px;
 
 }
@@ -549,9 +551,10 @@ footer {
 }
 .about-us-last p{
     text-align: left;
-    margin:20px;
+    margin-left:5vh;
     padding: 5px;
     color:#929394;
+    width:90%;
 }
 .about-us-last h1{
     margin-left: 380px;
@@ -563,7 +566,7 @@ footer {
     border-style: outset;
     border-radius: 50%;
     border-color: lightblue;
-    margin-left:30px;
+    margin-right:13vh;
     padding:20px;
 
 }
