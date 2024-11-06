@@ -141,7 +141,7 @@ figcaption{
 }
 .qoute{
     text-align: center;
-    padding-top:5vh;
+    padding-top:vh;
     font-size: 48px;
 }
 .qoute p{
@@ -267,8 +267,9 @@ footer{
         margin: 0;
     }
     .hero{
-        display: block;
+        display: flex;
         flex-direction:column;
+        justify-content: center;
         width:100%;
         margin-top:0px;
         height:100%;
@@ -279,16 +280,20 @@ footer{
         width:85%;
     }
     .features{
-        display:block;
+        display:flex;
+        flex-direction:column ;
+        justify-content: center;
     }
     picture{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .features h1{
-        text-align: left;
+        text-align: center;
     }
     figcaption{
-        text-align: left;
+        text-align: center;
     }
     .qoute{
         padding-top:3vh;
