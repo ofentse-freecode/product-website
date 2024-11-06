@@ -41,7 +41,7 @@ nav ul{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    margin: 2vh;
+    margin-right: 2vh;
     
 }
 nav ul li{
@@ -65,8 +65,8 @@ nav ul li a:hover {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    padding:8vh;
-    margin-top: 5vh;
+    padding:10vh 8vh 8vh 8vh;
+    margin-top: 2vh;
 }
 .hero-info{
     margin-left: 28vh;
