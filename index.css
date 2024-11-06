@@ -953,15 +953,11 @@ align-items: center;
   .blog {
     background-image: url("pages/assets/background1024.jpg");
   }
-  .contact-main{
+  .center{
     width:90%;
     height:1000px;
     margin:0px;
     padding:0px;
-    display:flex;
-    align-content: center;
-    justify-content: center;
-    flex-wrap: wrap;
   }
   .center img{
     display:none;
@@ -1302,10 +1298,6 @@ align-items: center;
   height:1000px;
   margin:0px;
   padding:0px;
-  display:flex;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 .center img{
   display:none;
@@ -1314,12 +1306,9 @@ align-items: center;
 margin:0px;
 }
 .center{
-  margin:0px;
+  height:1000px;
   padding:0px;
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+  
 }
 
 }
