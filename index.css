@@ -1117,6 +1117,7 @@ margin: 0px;
 .about-us-first{
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin-top:10vh;
 }
@@ -1126,6 +1127,9 @@ margin: 0px;
 .about-us-first p{
   margin-left:2vh;
   width:90%;
+}
+.about-us-first img{
+  margin:1vh 0vh 3vh 18vh;
 }
 .about-us-second{
   display: flex;
@@ -1164,7 +1168,7 @@ margin: 0px;
   border-style: outset;
   border-radius: 50%;
   border-color: lightblue;
-  margin-left: 2px;
+  margin-left: 6vh;
   padding:7px;
 
 }
