@@ -177,15 +177,7 @@ footer{
      justify-content: center;
     
 }
-@media(max-width: 768px) {
-    nav ul {
-        display: none; 
-    }
 
-    .menu-btn, .menu-icon {
-        display: inline-block;
-    }
-}
 
     /* Adjust the hero section 
     .hero {
@@ -269,6 +261,7 @@ footer{
     .hero{
         display: flex;
         flex-direction:column;
+        align-items: center;
         justify-content: center;
         width:100%;
         margin-top:0px;
